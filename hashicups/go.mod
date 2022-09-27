@@ -1,4 +1,4 @@
-module github.com/hashicorp/cdktf-provider-hashicups-go/hashicups
+module github.com/cdktf/cdktf-provider-hashicups-go/hashicups
 
 go 1.16
 
