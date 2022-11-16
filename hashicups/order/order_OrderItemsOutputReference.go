@@ -2,9 +2,9 @@ package order
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/order/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/order/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

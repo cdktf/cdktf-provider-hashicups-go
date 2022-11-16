@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package datahashicupscoffees
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataHashicupsCoffees) validateOverrideLogicalIdParameters(new
 }
 
 func validateDataHashicupsCoffees_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHashicupsCoffees_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataHashicupsCoffees_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

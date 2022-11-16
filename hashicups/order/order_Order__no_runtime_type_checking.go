@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package order
 
@@ -58,6 +57,14 @@ func (o *jsiiProxy_Order) validatePutItemsParameters(value interface{}) error {
 }
 
 func validateOrder_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateOrder_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateOrder_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

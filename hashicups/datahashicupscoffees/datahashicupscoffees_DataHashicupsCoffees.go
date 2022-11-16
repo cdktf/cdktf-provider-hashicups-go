@@ -2,10 +2,10 @@ package datahashicupscoffees
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/datahashicupscoffees/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -380,6 +380,44 @@ func DataHashicupsCoffees_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHashicupsCoffees_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHashicupsCoffees_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataHashicupsCoffees_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataHashicupsCoffees_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

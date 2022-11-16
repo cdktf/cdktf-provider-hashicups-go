@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package provider
 
@@ -14,6 +13,14 @@ func (h *jsiiProxy_HashicupsProvider) validateOverrideLogicalIdParameters(newLog
 }
 
 func validateHashicupsProvider_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateHashicupsProvider_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateHashicupsProvider_IsTerraformProviderParameters(x interface{}) error {
 	return nil
 }
 

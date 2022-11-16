@@ -2,10 +2,10 @@ package order
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/order/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/order/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -477,6 +477,44 @@ func Order_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-hashicups.order.Order",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Order_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOrder_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hashicups.order.Order",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Order_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOrder_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-hashicups.order.Order",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)
