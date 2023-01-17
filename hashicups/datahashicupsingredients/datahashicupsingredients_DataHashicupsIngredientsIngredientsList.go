@@ -2,9 +2,9 @@ package datahashicupsingredients
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/jsii"
 
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/datahashicupsingredients/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupsingredients/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

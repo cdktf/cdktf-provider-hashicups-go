@@ -2,10 +2,10 @@ package datahashicupscoffees
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v2/datahashicupscoffees/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
