@@ -59,7 +59,9 @@ This project is explicitly not tracking the Terraform hashicups Provider version
 These are the upstream dependencies:
 
 * [Terraform CDK](https://cdk.tf)
-* [Terraform hashicups Provider](https://github.com/terraform-providers/terraform-provider-hashicups)
+* [Terraform hashicups Provider](https://registry.terraform.io/providers/hashicorp/hashicups/0.3.0)
+
+  * This links to the minimum version being tracked, you can find the latest released version [in our releases](https://github.com/cdktf/cdktf-provider-hashicups/releases)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
