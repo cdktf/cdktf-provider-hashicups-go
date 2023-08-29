@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 //go:build !no_runtime_type_checking
 
 package order
@@ -28,6 +31,8 @@ func (o *jsiiProxy_OrderItemsList) validateResolveParameters(_context cdktf.IRes
 
 func (j *jsiiProxy_OrderItemsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
+	case cdktf.IResolvable:
+		// ok
 	case *[]*OrderItems:
 		val := val.(*[]*OrderItems)
 		for idx_97dfc6, v := range *val {
@@ -43,11 +48,9 @@ func (j *jsiiProxy_OrderItemsList) validateSetInternalValueParameters(val interf
 				return err
 			}
 		}
-	case cdktf.IResolvable:
-		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *[]*OrderItems, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*OrderItems; received %#v (a %T)", val, val)
 		}
 	}
 
