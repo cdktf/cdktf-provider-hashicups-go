@@ -5,9 +5,9 @@ package datahashicupsorder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/jsii"
 
-	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/datahashicupsorder/internal"
+	"github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
